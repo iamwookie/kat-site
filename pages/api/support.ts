@@ -4,8 +4,8 @@ import axios from "axios";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     try {
-        const { data } = await axios.get("https://discord.com/api/guilds/858675408140369920/widget.json");
-        res.redirect(301, data.instant_invite);
+        const { data } = await axios.get(process.env.DISCORD_WIDGET!);
+        res.redirect(302, data.instant_invite);
     } catch (err) {
         console.error("[Discord] Error Fetching Invite");
         console.error(err);
