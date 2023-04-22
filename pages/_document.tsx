@@ -4,6 +4,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
+                <meta name="author" content="Bilal" />
                 <meta name="theme-color" content="#FFFFFF" />
             </Head>
             <body>
