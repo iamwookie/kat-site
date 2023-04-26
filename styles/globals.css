@@ -10,6 +10,12 @@ body {
     @apply font-nunito;
 }
 
+code {
+    @apply p-0.5;
+    @apply rounded;
+    @apply bg-black;
+}
+
 .tippy-box[data-theme~="blur"] {
     background-color: transparent;
     @apply backdrop-blur-sm;
