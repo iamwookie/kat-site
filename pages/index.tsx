@@ -36,11 +36,12 @@ export default function KAT({ avatarURL, stats }: Props) {
                 </Tippy>
             </div>
 
-            <p className="rounded-lg p-4 bg-darkerslate text-sm">
-                ✨ KAT is a multi-purpose Discord bot that provides custom solutions to various different servers.
+            <p className="rounded-lg p-4 bg-darkerslate text-md">
+                ✨ KAT is a completely free, simple and minimalist bot that plays music and provides custom solutions.
                 <br />
-                🎵 KAT also plays high quality music from YouTube and Spotify.
+                🎵 KAT plays high quality music, including playlists and albums from YouTube and Spotify.
                 <br />
+                ✔️ Invite KAT and use the <code className="text-sm">.play</code> command to start streaming music within seconds.
             </p>
 
             <div className="pt-4 text-lg">
