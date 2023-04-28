@@ -37,7 +37,11 @@ export default function KAT({ avatarURL, stats }: Props) {
             </div>
 
             <p className="rounded-lg p-4 bg-darkerslate text-md">
-                ✨ KAT is a completely free, simple and minimalist bot that plays music and provides custom solutions.
+                ✨ KAT is a completely free, simple and minimalist{" "}
+                <a href="https://discord.com" rel="norefferer noopener" className="hover:opacity-50">
+                    Discord
+                </a>{" "}
+                bot that plays music and provides custom solutions.
                 <br />
                 🎵 KAT plays high quality music, including playlists and albums from YouTube and Spotify.
                 <br />
