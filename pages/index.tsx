@@ -38,7 +38,7 @@ export default function KAT({ avatarURL, stats }: Props) {
 
             <p className="rounded-lg p-4 bg-darkerslate text-md">
                 ✨ KAT is a completely free, simple and minimalist{" "}
-                <a href="https://discord.com" rel="norefferer noopener" className="hover:opacity-50">
+                <a href="https://discord.com" target="_blank" rel="norefferer noopener" className="hover:opacity-50 underline">
                     Discord
                 </a>{" "}
                 bot that plays music and provides custom solutions.
