@@ -5,6 +5,7 @@ import Image from "next/image";
 import TextButton from "@components/buttons/TextButton";
 import Tippy from "@tippyjs/react";
 import Discord from "@lib/discord";
+import Link from "next/link";
 
 type Props = {
     avatarURL?: any;
@@ -38,7 +39,7 @@ export default function KAT({ avatarURL, stats }: Props) {
 
             <p className="rounded-lg p-4 bg-darkerslate text-md">
                 ✨ KAT is a completely free, simple and minimalist{" "}
-                <a href="https://discord.com" target="_blank" rel="norefferer noopener" className="hover:opacity-50 underline">
+                <a href="https://discord.com" target="_blank" rel="norefferer noopener" className="underline hover:opacity-50">
                     Discord
                 </a>{" "}
                 bot that plays music and provides custom solutions.
@@ -46,6 +47,11 @@ export default function KAT({ avatarURL, stats }: Props) {
                 🎵 KAT plays high quality music, including playlists and albums from YouTube and Spotify.
                 <br />
                 ✔️ Invite KAT and use the <code className="text-sm">.play</code> command to start streaming music within seconds.
+                <br />❓ Have questions or suggestions? Join the the support server{" "}
+                <Link href="/support" target="_blank" className="underline hover:opacity-50">
+                    here
+                </Link>
+                .
             </p>
 
             <div className="pt-4 text-lg">
