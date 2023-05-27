@@ -42,7 +42,7 @@ export default function KAT({ avatarURL, stats }: Props) {
                 <a href="https://discord.com" target="_blank" rel="norefferer noopener" className="underline hover:opacity-50">
                     Discord
                 </a>{" "}
-                bot that plays music and provides custom solutions.
+                bot that plays music and does other cool things.
                 <br />
                 🎵 KAT plays high quality music, including playlists and albums from YouTube and Spotify.
                 <br />
