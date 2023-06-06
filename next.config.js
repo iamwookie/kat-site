@@ -11,7 +11,7 @@ const nextConfig = {
         return [
             {
                 source: "/invite",
-                destination: process.env.DISCORD_ENDPOINT + "/invite",
+                destination: "/api/invite",
                 permanent: true,
             },
             {
