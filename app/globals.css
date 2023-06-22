@@ -4,12 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply bg-darkslate;
-    @apply text-white;
-    @apply font-nunito;
-}
-
 code {
     @apply p-0.5;
     @apply rounded;
