@@ -1,7 +1,5 @@
 import { NextResponse } from 'next/server';
 
-export const revalidate = 0;
-
 export async function GET() {
     try {
         const { instant_invite } = await fetch(process.env.DISCORD_WIDGET!).then((res) => res.json());
