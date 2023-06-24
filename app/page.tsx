@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Tooltip from '@components/ui/Tooltip';
-import Button from '@components/ui/Button';
+import LinkButton from '@components/ui/Button';
 import Discord from '@lib/discord';
 import Link from 'next/link';
 
@@ -44,16 +44,14 @@ export default async function Home() {
             </p>
 
             <div className="mt-4">
-                <a href="https://bmc.link/wook.ie" target="_blank" rel="norefferer noopener" className='hover:opacity-50'>
-                    <Image src="/assets/bmc_button.png" width={150} height={25} alt="Buy Me A Coffee" className='inline-block' priority />
+                <a href="https://bmc.link/wook.ie" target="_blank" rel="norefferer noopener" className="hover:opacity-50">
+                    <Image src="/assets/bmc_button.png" width={150} height={25} alt="Buy Me A Coffee" className="inline-block" priority />
                 </a>
             </div>
 
             {stats && (
                 <div className="mt-4 text-lg">
-                    <Link href="/invite" target="_blank" className="inline-block">
-                        <Button>Invite</Button>
-                    </Link>
+                    <LinkButton href="/invite">Invite</LinkButton>
                 </div>
             )}
         </>
