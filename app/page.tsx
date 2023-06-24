@@ -45,7 +45,7 @@ export default async function Home() {
 
             <div className="mt-4">
                 <a href="https://bmc.link/wook.ie" target="_blank" rel="norefferer noopener" className='hover:opacity-50'>
-                    <Image src="/assets/bmc_button.png" width={150} height={25} alt="Buy Me A Coffee" className='inline-block' />
+                    <Image src="/assets/bmc_button.png" width={150} height={25} alt="Buy Me A Coffee" className='inline-block' priority />
                 </a>
             </div>
 
