@@ -43,13 +43,17 @@ export default async function Home() {
                 .
             </p>
 
+            <div className="mt-4">
+                <a href="https://bmc.link/wook.ie" target="_blank" rel="norefferer noopener" className='hover:opacity-50'>
+                    <Image src="/assets/bmc_button.png" width={150} height={25} alt="Buy Me A Coffee" className='inline-block' />
+                </a>
+            </div>
+
             {stats && (
-                <div className="pt-4 text-lg">
-                    <Button>
-                        <a href="/invite" target="_blank">
-                            Invite
-                        </a>
-                    </Button>
+                <div className="mt-4 text-lg">
+                    <Link href="/invite" target="_blank" className="inline-block">
+                        <Button>Invite</Button>
+                    </Link>
                 </div>
             )}
         </>
