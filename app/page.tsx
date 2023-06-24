@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Tooltip from '@components/ui/Tooltip';
-import LinkButton from '@components/ui/Button';
+import LinkButton from '@components/ui/LinkButton';
 import Discord from '@lib/discord';
 import Link from 'next/link';
 
