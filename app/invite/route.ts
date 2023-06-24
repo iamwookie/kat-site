@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(req: NextRequest) {
     try {
-        const { bitfield } = await fetch(process.env.DISCORD_ENDPOINT + '/permissions', { next: { revalidate: 300 }}).then((res) => res.json());
+        const { bitfield } = await fetch(process.env.DISCORD_ENDPOINT + '/permissions').then((res) => res.json());
         if (!bitfield) return new NextResponse('Not Found', { status: 404 });
 
         const admin = new URL(req.url).searchParams.get('admin');

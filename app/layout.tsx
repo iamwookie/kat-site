@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en">
             <body className={`${nunito.className} bg-darkslate text-white`}>
                 <main className="grid min-h-screen place-items-center">
-                    <div className="relative m-5 lg:m-0 text-center animate__animated animate__fadeIn">{children}</div>
+                    <div className="relative p-5 md:p-0 text-center animate__animated animate__fadeIn">{children}</div>
                 </main>
 
                 <Footer />
