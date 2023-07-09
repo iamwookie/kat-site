@@ -51,7 +51,7 @@ export default async function Home() {
 
             {stats && (
                 <div className="mt-4 text-lg">
-                    <LinkButton href="/invite">Invite</LinkButton>
+                    <LinkButton href="/invite?admin=true">Invite</LinkButton>
                 </div>
             )}
         </>
