@@ -4,19 +4,19 @@ export default function TOS() {
             <h1 className="text-4xl">Terms Of Service</h1>
 
             <p className="p-1 my-2">
-                These Terms of Service (&quot;Agreement&quot;) govern your use of KAT, a Discord music bot (&quot;Service&quot;, &quot;bot&quot;) provided by{' '}
+                These Terms of Services (&quot;Agreement&quot;) govern your use of KAT, a Discord music bot provided by{' '}
                 <a href="https://bil.al" target="_blank" className="underline hover:opacity-50">
                     Bilal Mustafa
                 </a>{' '}
-                (&quot;Developer&quot;, &quot;we&quot;, or &quot;us&quot;) and associated services such as this website (&quot;Service&quot;,
+                (&quot;Developer&quot;, &quot;we&quot;, or &quot;us&quot;) and associated services such as this website (&quot;Services&quot;, &quot;bot&quot;, &quot;website&quot;),
                 &quot;website&quot;). By using KAT and associated services, you agree to be bound by this Agreement. If you do not agree with any part of these terms, you may not use
-                the Service.
+                the Services.
             </p>
 
             <h2 className="text-xl font-bold">1. Acceptance of Terms</h2>
 
             <div className="p-1">
-                <p>1.1 By using the Service, you represent and warrant that you have read, understood, and agree to be bound by this Agreement.</p>
+                <p>1.1 By using the Services, you represent and warrant that you have read, understood, and agree to be bound by this Agreement.</p>
                 <p>
                     1.2 As KAT, is a bot based on the Discord platform, you acknowledge and agree to abide by the{' '}
                     <a href="https://discord.com/terms" target="_blank" className="underline hover:opacity-50">
@@ -24,17 +24,17 @@ export default function TOS() {
                     </a>
                     , which govern your use of the Discord platform and any associated services.
                 </p>
-                <p>1.3 You must be at least 13 years old to use the Service. If you are under 13, please refrain from using the Service.</p>
+                <p>1.3 You must be at least 13 years old to use the Services. If you are under 13, please refrain from using the Services.</p>
             </div>
 
-            <h2 className="text-xl font-bold">2. Use of Service</h2>
+            <h2 className="text-xl font-bold">2. Use of Services</h2>
 
             <div className="p-1">
                 <p>
-                    2.1 The Service is provided on an as &quot;is&quot; and &quot;as available&quot; basis. We do not guarantee uninterrupted or error-free
-                    access to the Service, and we reserve the right to modify or discontinue the Service at any time without notice.
+                    2.1 The Services are provided on an as &quot;is&quot; and &quot;as available&quot; basis. We do not guarantee uninterrupted or error-free
+                    access to the Services, and we reserve the right to modify or discontinue the Services at any time without notice.
                 </p>
-                <p>2.2 You are solely responsible for your use of the Service and agree to comply with all applicable laws and regulations.</p>
+                <p>2.2 You are solely responsible for your use of the Services and agree to comply with all applicable laws and regulations.</p>
             </div>
 
             <h2 className="text-xl font-bold">3. User Data</h2>
@@ -57,7 +57,7 @@ export default function TOS() {
                 <p>
                     4.1 KAT and all related materials, including but not limited to code, logos, and design, are the intellectual property of the Developer. You
                     may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell
-                    any part of the Service without prior written consent from the Developer.
+                    any part of the Services without prior written consent from the Developer.
                 </p>
             </div>
 
@@ -66,7 +66,7 @@ export default function TOS() {
             <div className="p-1">
                 <p>
                     5.1 To the fullest extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive
-                    damages, or any loss of profits or revenue, whether incurred directly or indirectly, arising from your use of the Service.
+                    damages, or any loss of profits or revenue, whether incurred directly or indirectly, arising from your use of the Services.
                 </p>
             </div>
 
@@ -74,7 +74,7 @@ export default function TOS() {
 
             <div className="p-1">
                 <p>
-                    6.1 We reserve the right to terminate or suspend your access to the Service at any time, without prior notice or liability, for any reason
+                    6.1 We reserve the right to terminate or suspend your access to the Services at any time, without prior notice or liability, for any reason
                     whatsoever, including without limitation if you breach the terms of this Agreement.
                 </p>
             </div>
@@ -93,7 +93,7 @@ export default function TOS() {
             <div className="p-1">
                 <p>
                     9.1 We reserve the right to modify or replace these terms at any time. Any changes to this Agreement will be effective immediately upon
-                    posting the revised version on our website or through the Service. Your continued use of the Service after any such changes constitutes your
+                    posting the revised version on our website or through the Services. Your continued use of the Services after any such changes constitutes your
                     acceptance of the revised terms. It is your responsibility to remain updated with the terms.
                 </p>
             </div>
