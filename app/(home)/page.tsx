@@ -41,6 +41,12 @@ export default async function Home() {
                     here
                 </Link>
                 .
+                <br />
+                📜 Read the terms of service{' '}
+                <Link href="/tos" target="_blank" className="underline hover:opacity-50">
+                    here
+                </Link>
+                .
             </p>
 
             <div className="mt-4">
