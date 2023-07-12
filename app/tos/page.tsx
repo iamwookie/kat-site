@@ -8,9 +8,9 @@ export default function TOS() {
                 <a href="https://bil.al" target="_blank" className="underline hover:opacity-50">
                     Bilal Mustafa
                 </a>{' '}
-                (&quot;Developer&quot;, &quot;we&quot;, or &quot;us&quot;) and associated services such as this website (&quot;Services&quot;, &quot;bot&quot;, &quot;website&quot;),
-                &quot;website&quot;). By using KAT and associated services, you agree to be bound by this Agreement. If you do not agree with any part of these terms, you may not use
-                the Services.
+                (&quot;Developer&quot;, &quot;we&quot;, or &quot;us&quot;) and associated services such as this website (&quot;Services&quot;, &quot;bot&quot;,
+                &quot;website&quot;), &quot;website&quot;). By using KAT and associated services, you agree to be bound by this Agreement. If you do not agree
+                with any part of these terms, you may not use the Services.
             </p>
 
             <h2 className="text-xl font-bold">1. Acceptance of Terms</h2>
@@ -92,9 +92,9 @@ export default function TOS() {
 
             <div className="p-1">
                 <p>
-                    9.1 We reserve the right to modify or replace these terms at any time. Any changes to this Agreement will be effective immediately upon
-                    posting the revised version on our website or through the Services. Your continued use of the Services after any such changes constitutes your
-                    acceptance of the revised terms. It is your responsibility to remain updated with the terms.
+                    8.1 We reserve the right to modify or replace these terms at any time. Any changes to this Agreement will be effective immediately upon
+                    posting the revised version on our website or through the Services. Your continued use of the Services after any such changes constitutes
+                    your acceptance of the revised terms. It is your responsibility to remain updated with the terms.
                 </p>
             </div>
         </>
